@@ -1,5 +1,5 @@
 env:
-  dev
+  pro
 server:
   port: 8001
 mybatis:
