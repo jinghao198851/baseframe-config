@@ -2,3 +2,31 @@ env:
   dev
 server:
   port: 7009
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+ribbon:
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+
+zuul:
+  sensitiveHeaders:
+#  ignored-services: microcloud-dept #用于屏蔽单个服务
+  prefix: /ProjectName
+  ignored-services: "*"   #屏蔽多个服务
+  routes:
+    api-demo:
+      path: /apiDemo/**
+      serviceId: demoservice
+#  ignored-patterns: /**/demo3/**,/**/demo2/**    #禁止访问
+  max:
+    host:
+      connections: 500
+  host:
+    socket-timeout-millis: 20000
+    connect-timeout-millis: 60000  
