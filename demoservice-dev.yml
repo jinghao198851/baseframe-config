@@ -26,4 +26,21 @@ spring:
     host: localhost
     port: 5672
     password: jinghao
-    username: jinghao      
+    username: jinghao    
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: exchange-msg        #绑定exchange
+          content-type: application/json   #解决序列化问题
+          group: group-A                   #解决集群都收到消息的问题
+        output:
+          destination: exchange-msg
+          content-type: application/json
+        input2:
+          destination: exchange-msg2
+          content-type: application/json
+          group: group-B
+        output2:
+          destination: exchange-msg2
+          content-type: application/json
