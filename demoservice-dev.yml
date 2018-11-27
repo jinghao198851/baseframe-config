@@ -22,3 +22,8 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200
+  rabbitmq:
+    host: localhost
+    port: 5672
+    password: jinghao
+    username: jinghao      
