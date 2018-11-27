@@ -1,8 +1,8 @@
 env:
   dev
 student:
-  name: 小李子2
-  age: 98
+  name: LiLei
+  age: 11
 server:
   port: 8001
 mybatis:
