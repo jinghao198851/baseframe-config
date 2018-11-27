@@ -1,5 +1,8 @@
 env:
   pro
+student:
+  name: 小李子
+  age: 98
 server:
   port: 8001
 mybatis:
