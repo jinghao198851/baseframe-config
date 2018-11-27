@@ -1,7 +1,7 @@
 env:
-  pro
+  dev
 student:
-  name: 小李子
+  name: 小李子2
   age: 98
 server:
   port: 8001
