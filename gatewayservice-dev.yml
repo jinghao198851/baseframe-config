@@ -33,3 +33,7 @@ zuul:
 log: 
   loginFlag: true
   allFlag: true
+black:
+  - 192.168.1.1
+  - 192.168.1.2
+  - 192.168.1.3
