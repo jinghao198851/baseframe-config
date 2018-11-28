@@ -30,3 +30,6 @@ zuul:
   host:
     socket-timeout-millis: 20000
     connect-timeout-millis: 60000  
+log: 
+  loginFlag: true
+  allFlag: true
