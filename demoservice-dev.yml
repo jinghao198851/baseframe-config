@@ -2,7 +2,7 @@ env:
   dev
 student:
   name: Li_Lei
-  age: 44
+  age: 19
 server:
   port: 8001
 mybatis:
