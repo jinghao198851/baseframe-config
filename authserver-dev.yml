@@ -19,3 +19,13 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200
+  redis:
+    host: 47.92.38.5
+    port: 6379
+    password: redis
+    pool:
+      maxActive: 8
+      maxWait: -1
+      maxIdle: 8
+      minIdle: 0
+    timeout: 100000   
