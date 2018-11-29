@@ -26,7 +26,7 @@ zuul:
     api-auth:
       path: /api/auth/**
       serviceId: authserver
-#  ignored-patterns: /**/demo3/**,/**/demo2/**    #禁止访问
+# ignored-patterns: /**/demo3/**,/**/demo2/**    #禁止访问
   max:
     host:
       connections: 500
