@@ -28,4 +28,7 @@ spring:
       maxWait: -1
       maxIdle: 8
       minIdle: 0
-    timeout: 100000   
+    timeout: 100000  
+ribbon:
+  eureka:
+    enabled: true    
