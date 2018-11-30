@@ -24,9 +24,9 @@ spring:
     port: 6379
     password: redis
     pool:
-      maxActive: 8
-      maxWait: -1
-      maxIdle: 8
+      maxActive: 600
+      maxWait: 1000
+      maxIdle: 300
       minIdle: 0
     timeout: 100000  
 ribbon:
