@@ -44,13 +44,4 @@ spring:
         output2:
           destination: exchange-msg2
           content-type: application/json
-redis:
-    host: 47.92.38.5
-    port: 6379
-    password: redis
-    pool:
-      maxActive: 600
-      maxWait: 1000
-      maxIdle: 300
-      minIdle: 0
-    timeout: 100000            
+      
