@@ -1,5 +1,5 @@
 env:
-  d dsfsfdfdfs
+  prod
 student:
   name: Li_Lei
   age: 17
