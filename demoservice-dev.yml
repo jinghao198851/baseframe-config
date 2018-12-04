@@ -67,7 +67,7 @@ hystrix:
             timeoutInMilliseconds: 10000
 
 #ribbon的超时时间
-# ribbon:
-#   ReadTimeout: 30000
-#   ConnectTimeout: 30000           
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000           
       
