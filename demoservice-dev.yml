@@ -54,4 +54,7 @@ spring:
         output2:
           destination: exchange-msg2
           content-type: application/json
+feign:
+  hystrix:
+    enabled: true          
       
