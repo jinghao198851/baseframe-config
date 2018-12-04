@@ -1,5 +1,5 @@
 env:
-  prod11111
+  dev
 student:
   name: Li_Lei
   age: 17
