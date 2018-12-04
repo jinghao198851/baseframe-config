@@ -56,5 +56,11 @@ spring:
           content-type: application/json
 feign:
   hystrix:
-    enabled: true          
+    enabled: true       
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000    
       
