@@ -29,6 +29,9 @@ zuul:
     api-test:
       path: /apiTest/**
       serviceId: test-service
+    api-personal:
+      path: /apiPersonal/**
+      serviceId: personalservice  
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
