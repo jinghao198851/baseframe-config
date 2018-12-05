@@ -26,6 +26,9 @@ zuul:
     api-auth:
       path: /apiAuth/**
       serviceId: authserver
+    api-test:
+      path: /apiTest/**
+      serviceId: test-service
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
