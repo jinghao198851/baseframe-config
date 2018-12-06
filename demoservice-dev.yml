@@ -61,9 +61,9 @@ spring:
           destination: exchange-reply
           content-type: application/json
           group: group-D
-        replyOutput: 
-          destination: exchange-reply
-          content-type: application/json
+#         replyOutput: 
+#           destination: exchange-reply
+#           content-type: application/json
 feign:
   hystrix:
     enabled: true       
