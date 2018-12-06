@@ -40,10 +40,14 @@ spring:
         regInput:
           destination: exchange-reg        #绑定exchange
           content-type: application/json   #解决序列化问题
-          group: group-reg                 #解决集群都收到消息的问题
+          group: group-C                  #解决集群都收到消息的问题
         regOutput:
           destination: exchange-reg
           content-type: application/json
-        replyOutput: 
+        replyInput:
           destination: exchange-reply
           content-type: application/json
+          group: group-D
+        replyOutput: 
+          destination: exchange-reply
+          content-type: application/json  
