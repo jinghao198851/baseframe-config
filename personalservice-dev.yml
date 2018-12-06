@@ -44,3 +44,6 @@ spring:
         regOutput:
           destination: exchange-reg
           content-type: application/json
+        replyOutput: 
+          destination: exchange-reply
+          content-type: application/json
