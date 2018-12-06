@@ -54,10 +54,6 @@ spring:
         output2:
           destination: exchange-msg2
           content-type: application/json
-        regInput:
-          destination: exchange-reg
-          content-type: application/json
-          group: group-C
         regOutput:
           destination: exchange-reg
           content-type: application/json
