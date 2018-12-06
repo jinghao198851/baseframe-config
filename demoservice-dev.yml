@@ -56,7 +56,10 @@ spring:
           content-type: application/json
         regOutput:
           destination: exchange-reg
-          content-type: application/json   
+          content-type: application/json
+        replyInput:
+          destination: exchange-reply
+          content-type: application/json
 feign:
   hystrix:
     enabled: true       
