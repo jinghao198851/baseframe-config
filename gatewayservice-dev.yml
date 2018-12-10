@@ -35,7 +35,7 @@ zuul:
     api-team:
       path: /apiTeam/**
       serviceId: teamservice
-    api-msg;
+    api-msg:
       path: /apiMsg/**
       serviceId: messageservice
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
