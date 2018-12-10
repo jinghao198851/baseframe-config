@@ -24,19 +24,19 @@ zuul:
       path: /apiDemo/**
       serviceId: demoservice
     api-auth:
-      path: /apiAuth/**
+      path: /api/auth/**
       serviceId: authserver
     api-test:
       path: /apiTest/**
       serviceId: test-service
     api-personal:
-      path: /apiPersonal/**
+      path: /api/personal/**
       serviceId: personalservice
     api-team:
-      path: /apiTeam/**
+      path: /api/team/**
       serviceId: teamservice
     api-msg:
-      path: /apiMsg/**
+      path: /api/msg/**
       serviceId: messageservice
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
