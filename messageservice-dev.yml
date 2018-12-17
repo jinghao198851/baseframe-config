@@ -2,6 +2,16 @@ env:
   dev
 server:
   port: 8017
+#mysql日志
+logging:
+  level:
+    com.base.micro.dao: debug
+#可以自动修改日志级别    
+endpoints:
+  loggers:
+    enabled: true
+    sensitive: false
+  
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
   type-aliases-package: com.micro.cloud.entity              # 所有Entity别名类所在包
