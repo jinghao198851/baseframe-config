@@ -15,9 +15,10 @@ ribbon:
   ConnectTimeout: 10000
 
 zuul:
-  sensitiveHeaders:
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
 #  ignored-services: microcloud-dept #用于屏蔽单个服务
-  prefix: /ProjectName
+  prefix: /UniversalCards
   ignored-services: "*"   #屏蔽多个服务
   routes:
     api-demo:
