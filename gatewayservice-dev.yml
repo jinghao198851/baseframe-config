@@ -39,6 +39,9 @@ zuul:
     api-msg:
       path: /apiMsg/**
       serviceId: messageservice
+    api-material:
+      path: /apiMaterial/**
+      serviceId: materialservice
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
