@@ -5,6 +5,11 @@ student:
   age: 17
 server:
   port: 8001
+  
+#mysql日志
+logging:
+  level:
+    com.base.micro.dao: debug
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
   type-aliases-package: com.micro.cloud.entity              # 所有Entity别名类所在包
