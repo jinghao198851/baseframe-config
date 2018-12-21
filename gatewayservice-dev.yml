@@ -42,6 +42,9 @@ zuul:
     api-material:
       path: /apiMaterial/**
       serviceId: materialservice
+    api-task:
+      path: /apiTask/**
+      serviceId: taskservice
 # ignored-patterns: /**/demo3/**,/**/demo2/**     #禁止访问
   max:
     host:
