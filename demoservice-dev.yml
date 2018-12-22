@@ -28,9 +28,9 @@ spring:
       max-total: 5
       max-wait-millis: 200
   redis:
-    host: 47.92.38.5
+    host: 192.168.0.66
     port: 6379
-    password: redis
+    password: sdtg26a3
     pool:
       maxActive: 600
       maxWait: 1000
