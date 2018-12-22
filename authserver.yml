@@ -5,8 +5,8 @@ login:
   wxOrcodeBackUrl: https://ii.sinelinked.com/userCenter/html/login.html
   wxAccessTokenUrl: https://api.weixin.qq.com/sns/oauth2/access_token?appid={0}&secret={1}&code={2}&grant_type=authorization_code
   wxUserInfoUrl: https://api.weixin.qq.com/sns/userinfo?access_token={0}&openid={1}&lang=zh_CN
-  wxGzhAppId: wxe606548e5709ce55
-  wxGzhAppSecret: 479ccee19ceae2a281e0631907002ddf
+  wxGzhAppId: wx45ab72d81dc8cd72
+  wxGzhAppSecret: c3141d9a2ce501dcc3d8807bd90c8f33
   wxKfptAppId: wx77a3be2b980f9c1c
   wxKfptAppSecret: 212b6b0c8e0e9e487d628584b8be29a2
 info:
