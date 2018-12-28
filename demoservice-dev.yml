@@ -1,5 +1,5 @@
 env:
-  dev2
+  prod
 student:
   name: Li_Lei
   age: 173
