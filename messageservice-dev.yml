@@ -1,5 +1,5 @@
 env:
-  dev
+  dev2
 server:
   port: 8017
 #mysql日志
