@@ -2,7 +2,7 @@ env:
   dev2
 student:
   name: Li_Lei
-  age: 17
+  age: 173
 server:
   port: 8001
   
