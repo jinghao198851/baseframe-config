@@ -1,5 +1,5 @@
 env:
-  prod
+  test
 student:
   name: Li_Lei
   age: 173
