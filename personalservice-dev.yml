@@ -9,6 +9,8 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
 age: 222
 spring:
+  application:
+    name: personalservice
   zipkin:
     base-url: http://zipkin.com:9411 #zipkin-server的服务路径
   sleuth:
