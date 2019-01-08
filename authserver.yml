@@ -9,6 +9,8 @@ login:
   wxGzhAppSecret: c3141d9a2ce501dcc3d8807bd90c8f33
   wxKfptAppId: wx77a3be2b980f9c1c
   wxKfptAppSecret: 212b6b0c8e0e9e487d628584b8be29a2
+  wxXcxAppId: wx3facaaa31f346d16
+  wxXcxAppSecret: 10a1736382075f28c3035f6d6ddd28b1
 info:
   app.name: authserver
   company.name: baseframe  
