@@ -25,9 +25,9 @@ spring:
 #   sleuth:
 #     sampler:
 #       percentage: 1.0 #监控的百分比，默认的是0.1表示10%,这里给1.0表示全部监控
-  zipkin:
-    rabbitmq:
-      queue: zipkin
+#   zipkin:
+#     rabbitmq:
+#       queue: zipkin
       
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
