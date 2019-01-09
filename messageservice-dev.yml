@@ -23,12 +23,12 @@ spring:
     base-url: http://127.0.0.1:9411
     sender:
       type: web
+    rabbitmq:
+      queue: zipkin2    
   sleuth:
     sampler:
       percentage: 1.0
-#   zipkin:
-#     rabbitmq:
-#       queue: zipkin
+
       
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
