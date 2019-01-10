@@ -7,7 +7,7 @@ mybatis:
   type-aliases-package: com.micro.cloud.entity              # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
-age: 23
+age: 26
 spring:
   application:
     name: personalservice
