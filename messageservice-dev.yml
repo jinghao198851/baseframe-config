@@ -28,8 +28,17 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
-
-      
+   cloud:
+    stream:
+      bindings:
+#         input:
+#           destination: exchange-msg        #绑定exchange
+#           content-type: application/json   #解决序列化问题
+#           group: group-A                   #解决集群都收到消息的问题
+        msgTestOutPut:
+          destination: exchange-msg
+          content-type: application/json
+          
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
