@@ -28,7 +28,7 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
-   cloud:
+  cloud:
     stream:
       bindings:
 #         input:
