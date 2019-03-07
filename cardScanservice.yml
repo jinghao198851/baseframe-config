@@ -34,3 +34,11 @@ spring:
     port: 5672
     password: jinghao
     username: jinghao 
+#阿里云ocr识别参数
+ocr:
+  param:
+    host: https://dm-57.data.aliyun.com #
+    path: /rest/160601/ocr/ocr_business_card.json
+    appcode: b7c21fb310df4d8798a117cb5851bad2
+    APP_KEY: 25688441
+    APP_SECRET: 1ae2455fa22bfec7227a3fab91c7fb3b
