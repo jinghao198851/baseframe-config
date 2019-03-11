@@ -42,3 +42,5 @@ ocr:
     appcode: b7c21fb310df4d8798a117cb5851bad2
     APP_KEY: 25688441
     APP_SECRET: 1ae2455fa22bfec7227a3fab91c7fb3b
+#OSS bucket  
+bucketName: tymp-bucket
