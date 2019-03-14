@@ -35,4 +35,4 @@ spring:
     password: jinghao
     username: jinghao 
 #OSS bucket  
-bucketName: tymp-bucket
+bucketName: zzhd-bucket
