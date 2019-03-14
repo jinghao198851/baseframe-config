@@ -61,7 +61,7 @@ spring:
       minIdle: 0
     timeout: 100000    
   rabbitmq:
-    host: 192.168.0.122
+    host: 192.168.0.116
     port: 5672
     password: jinghao
     username: jinghao
