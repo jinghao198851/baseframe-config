@@ -34,11 +34,10 @@ spring:
     port: 5672
     password: jinghao
     username: jinghao 
-  servlet:
-    multipart:
-      enabled: true
-      max-file-size: 30MB  #单个文件的最大上限
-      max-request-size: 300MB #单个请求的文件总大小上限
+  http: 
+    multipart: 
+      max-file-size: 200MB
+      max-request-size: 200MB
 #阿里云ocr识别参数
 ocr:
   param:
