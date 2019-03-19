@@ -12,8 +12,8 @@ login:
   wxKfptAppSecret: 212b6b0c8e0e9e487d628584b8be29a2
   wxXcxAppId: wx3facaaa31f346d16
   wxXcxAppSecret: 10a1736382075f28c3035f6d6ddd28b1
-  xcxYsxsAppId: wx16c59e3f46f296db
-  xcxYsxsAppSecret: af4256a37e756ec80758260aec75343d
+  wxXcxYsxsAppId: wx16c59e3f46f296db
+  wxXcxYsxsAppSecret: af4256a37e756ec80758260aec75343d
 info:
   app.name: authserver
   company.name: baseframe  
