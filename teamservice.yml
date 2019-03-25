@@ -15,3 +15,5 @@ ribbon:
   ConnectTimeout: 5000
 #OSS bucket  
 bucketName: tymp-bucket
+#小程序 pagePath
+pagePath: card/team
