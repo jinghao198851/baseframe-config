@@ -44,3 +44,4 @@ xcxpay:
   payurl: http://ii.sinelinked.com/tg_pay/pay/unifiedOrder
   queryurl: http://ii.sinelinked.com/tg_pay/pay/queryOrder
   payfororganizerurl: http://ii.sinelinked.com/tg_pay/pay/entPay
+  querypayforurl: http://ii.sinelinked.com/tg_pay/pay/queryEntPay
