@@ -14,3 +14,8 @@ ribbon:
   ConnectTimeout: 5000
 #OSS bucket  
 bucketName: tymp-bucket
+# 腾讯云名片识别参数
+tencent:
+  appId: 10176258
+  secretId: AKIDxmngs0gAPYWNCtLr65CIyaKCyhdjhsxv
+  secretKey: GVFyb5WwNzWovqESSDjGhaFfrqnY4LWU
