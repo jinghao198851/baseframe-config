@@ -59,4 +59,4 @@ spring:
           maxConnections: 5
           validationQuery: select 0
           connection-provider:
-            class: com.developlee.quartz.config.quartz.DruidConnectionProvider
+            class: com.base.micro.task.quartz.DruidConnectionProvider
