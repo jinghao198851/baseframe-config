@@ -52,10 +52,10 @@ spring:
         thread-count: 5
       datasource:
         quartzDataSource:
-          driver: ${spring.datasource.driver-class-name}
-          url: ${spring.datasource.url}
-          user: ${spring.datasource.username}
-          password: ${spring.datasource.password}
+          driver-class-name: org.gjt.mm.mysql.Driver
+          url: jdbc:mysql://192.168.0.66:3306/universal_card?useUnicode=true&characterEncoding=UTF-8&multiStatementAllow=true
+          username: root
+          password: root
           maxConnections: 5
           validationQuery: select 0
           connection-provider:
