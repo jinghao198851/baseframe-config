@@ -33,30 +33,30 @@ spring:
       maxIdle: 300
       minIdle: 0
     timeout: 100000
- app:
-   quartz:
-      scheduler:
-        instance-name: welendScheduler
-        instance-id: NON_CLUSTERED
-        skip-update-check: true
-        job-factory:
-          class: org.quartz.simpl.SimpleJobFactory
-      job-store:
-        class: org.quartz.impl.jdbcjobstore.JobStoreTX
-        driver-delegate-class: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
-        datasource: quartzDataSource
-        table-prefix: QRTZ_
-        is-clustered: true
-      thread-pool:
-        class: org.quartz.simpl.SimpleThreadPool
-        thread-count: 5
-      datasource:
-        quartzDataSource:
-          driver-class-name: org.gjt.mm.mysql.Driver
-          url: jdbc:mysql://192.168.0.66:3306/universal_card?useUnicode=true&characterEncoding=UTF-8&multiStatementAllow=true
-          username: root
-          password: root
-          maxConnections: 5
-          validationQuery: select 0
-          connection-provider:
-            class: com.base.micro.task.quartz.DruidConnectionProvider
+app: 
+  quartz: 
+     scheduler: 
+       instance-name: welendScheduler
+       instance-id: NON_CLUSTERED
+       skip-update-check: true
+       job-factory:
+         class: org.quartz.simpl.SimpleJobFactory
+     job-store: 
+       class: org.quartz.impl.jdbcjobstore.JobStoreTX
+       driver-delegate-class: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+       datasource: quartzDataSource
+       table-prefix: QRTZ_
+       is-clustered: true
+     thread-pool: 
+       class: org.quartz.simpl.SimpleThreadPool
+       thread-count: 5
+     datasource: 
+       quartzDataSource: 
+         driver-class-name: org.gjt.mm.mysql.Driver
+         url: jdbc:mysql://192.168.0.66:3306/universal_card?useUnicode=true&characterEncoding=UTF-8&multiStatementAllow=true
+         username: root
+         password: root
+         maxConnections: 5
+         validationQuery: select 0
+         connection-provider: 
+           class: com.base.micro.task.quartz.DruidConnectionProvider
