@@ -45,3 +45,7 @@ xcxpay:
   queryurl: http://ii.sinelinked.com/tg_pay/pay/queryOrder
   payfororganizerurl: http://ii.sinelinked.com/tg_pay/pay/entPay
   querypayforurl: http://ii.sinelinked.com/tg_pay/pay/queryEntPay
+xcxMsg:
+  templateId:
+    partSuccess: MdNMiO7VsbDXPxcjBEsNAmuoimAEAUZoul1Ku-wc3ZM
+  sendUrl: http://ii.sinelinked.com/tg_pay/applet/sendtemplatemsg
