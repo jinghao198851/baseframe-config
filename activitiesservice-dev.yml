@@ -48,4 +48,5 @@ xcxpay:
 xcxMsg:
   templateId:
     partSuccess: MdNMiO7VsbDXPxcjBEsNAmuoimAEAUZoul1Ku-wc3ZM
+    draw: MdNMiO7VsbDXPxcjBEsNAmuoimAEAUZoul1Ku-wc3ZM
   sendUrl: http://ii.sinelinked.com/tg_pay/applet/sendtemplatemsg
