@@ -30,10 +30,10 @@ spring:
       minIdle: 0
     timeout: 100000    
   rabbitmq:
-    host: 192.168.0.114
+    host: localhost
     port: 5672
-    password: jinghao
-    username: jinghao 
+    password: guest
+    username: guest 
   http: 
     multipart: 
       max-file-size: 200MB
