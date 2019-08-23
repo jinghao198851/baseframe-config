@@ -48,3 +48,10 @@ ocr:
     APP_SECRET: 1ae2455fa22bfec7227a3fab91c7fb3b
 #OSS bucket  
 bucketName: tymp-bucket
+xcxpay:
+  mch_id: 1531248501
+  mchKey: 6764477B2AF94156A94ABCCFE07CC0BD
+  key: 6764477B2AF94156A94ABCCFE07CC0BD
+  paysentredurl: http://ii.sinelinked.com/tg_pay/pay/entPay
+  querysentredurl: http://ii.sinelinked.com/tg_pay/pay/queryEntPay
+  wxXcxAppId: 123455
