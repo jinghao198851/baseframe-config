@@ -12,3 +12,5 @@ hystrix:
 ribbon:
   ReadTimeout: 7000
   ConnectTimeout: 5000
+smallCode:
+  url: https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=
