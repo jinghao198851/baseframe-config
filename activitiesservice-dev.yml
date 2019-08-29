@@ -50,3 +50,5 @@ xcxMsg:
     partSuccess: MdNMiO7VsbDXPxcjBEsNAmuoimAEAUZoul1Ku-wc3ZM
     draw: MdNMiO7VsbDXPxcjBEsNAmuoimAEAUZoul1Ku-wc3ZM
   sendUrl: http://ii.sinelinked.com/tg_pay/applet/sendtemplatemsg
+smallCode:
+  url: https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=
