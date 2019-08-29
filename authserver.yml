@@ -16,6 +16,8 @@ login:
   wxXcxAppSecret: 10a1736382075f28c3035f6d6ddd28b1
   wxXcxZzhdAppId: wx80fb1c5dfb344c49
   wxXcxZzhdAppSecret: 56551d24d9d2677d78d2dce5342416ca
+  wxXcxQJAppId: wxde8ce3c0f22cb20d
+  wxXcxQJAppSecret: 720a95abefe2d4ec38f530810ce3eba5
 info:
   app.name: authserver
   company.name: baseframe  
