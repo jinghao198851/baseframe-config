@@ -52,3 +52,12 @@ xcxMsg:
   sendUrl: http://ii.sinelinked.com/tg_pay/applet/sendtemplatemsg
 smallCode:
   url: https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=
+withdraw:  
+ bankUrl: http://ii.sinelinked.com/tg_pay/pay/payBank 
+ bankResultUrl: http://ii.sinelinked.com/tg_pay/pay/queryPayBank 
+ changeUrl: http://ii.sinelinked.com/tg_pay/pay/entPay  
+ refundUrl: http://ii.sinelinked.com/tg_pay/pay/refund 
+ queryRefundUrl: http://ii.sinelinked.com/tg_pay/pay/refundQuery 
+ mch_id: 1550590321 
+ mchKey: r5ykPQ994Dhw536i2CmhNOyrbPlf1pla 
+ key: r5ykPQ994Dhw536i2CmhNOyrbPlf1pla 
